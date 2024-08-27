@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box; 
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#800080 0%, #ADD8E6 100%)
+}
+
+.wrapper{
+    background: #fff;
+    width: 640px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-members{
+    margin: 12px;
+}
+img{
+    width:100px;
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px;
+}
+h4{
+    text-align:center;
+    font-size: 12px;
+    margin:7px;
+}
+p{
+    text-align:left;
+    font-size: 12px;
+    margin:7px;
+}
+    <head>
+        <meta charset="UTF-8">
+        <title>Group 4 | Profile</title>
+        <link rel="stylesheet" href="style.css">
+    </head>   
+        <body>
+        <div class="wrapper">
+            <h1>Group 4 Members</h1>
+            <hr>
+            <div class="members">
+                <div class="team-members">
+                    <img src="images/member1.jpg">
+                    <h4>Gian Clark Pascua</h4>
+                    <P>Currently a 3rd Year IT student at PLMUN. Enjoys playing games like CODM in his spare time.</P>
+                </div>
+                <div class="team-members">
+                    <img src="images/member2.jpg">
+                    <h4>Jonas Lapaot</h4>
+                    <P>My name is Jonas Lapaot, and I am currently a 3rd year student at PLMUN. I have a passion for football and futsal. I play for school.
+                    </P>
+                </div>
+                <div class="team-members">
+                    <img src="images/member3.jpg">
+                    <h4>Marben Cayabo</h4>
+                    <P>I am a 3rd-year IT student at PLMUN. In my free time, I enjoy playing mobile games like Mobile Legends and staying active through sports like soccer, Futsal and basketball.</P>
+                </div>
+                <div class="team-members">
+                    <img src="images/member4.jpg">
+                    <h4>Raymart Quilojano</h4>
+                    <P>A am Raymart Quilojano a student of PLMUN. I'm not talkative to others but I can try my best.</P>
+                </div>
+        </div>
+        </div>
+    </body>
+</html>
